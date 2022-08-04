@@ -6,11 +6,12 @@ Here in this repo, I would like to share my experience regarding implementing th
 
 - [What's included](#whats-included)
 - [Phase zero](#Phase-zero)
-
+- [AWS CIS Benchmark](#AWS-CIS-Benchmark)
 
 ## What's included
 ```
 ├── ./SecurityHub-Multiaccount-UpdateControls
+├── ./AWS CIS Benchmark
 ```
 
 ## Phase zero
@@ -38,3 +39,8 @@ In this solution, an execution role creates in all member accounts and security 
 
 The details implementation already explained in the [README](./SecurityHub-Multiaccount-UpdateControls/README.md) file. There is a modification to the code compared to the original one:
 - I have added a feature to define the exception region. The reason behind that is when we want to disable the redundant controls, we want to keep control enabled in one region. So we can select all regions to be disabled except one region where AWS config global resource is enabled which makes life much easier.
+
+
+## AWS CIS Benchmark
+AWS CIS Benchmark includes four parts: IAM, Loggin, Monitoring, and Networking.
+In the CIS benchmark [ReadMe](), I will introduce my concerns and finding and remediation approaches.
