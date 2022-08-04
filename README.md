@@ -36,5 +36,5 @@ In this solution, an execution role creates in all member accounts and security 
 ![](./SecurityHub-Multiaccount-UpdateControls/img//media/image2.png)
 
 
-- The details implementation already exists in the README file. There is a modification to the code compared to the original one:
-I have added a feature to define the exception region. The reason behind that is when we want to disable the redundant controls, we want to keep control enabled in one region. So we can select all regions to be disabled except one region where AWS config global resource is enabled which makes life much easier.
+The details implementation already explained in the [README](./SecurityHub-Multiaccount-UpdateControls/README.md) file. There is a modification to the code compared to the original one:
+- I have added a feature to define the exception region. The reason behind that is when we want to disable the redundant controls, we want to keep control enabled in one region. So we can select all regions to be disabled except one region where AWS config global resource is enabled which makes life much easier.
