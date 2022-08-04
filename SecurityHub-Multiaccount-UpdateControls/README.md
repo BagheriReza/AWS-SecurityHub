@@ -368,5 +368,20 @@ $ python SH-UpdateControls.py \
 ![](./img//media/image12.png)
 
 
+**Example 3- Disabling Controls in all regions except one region:**
+
+It is required to select ALL as regions argument and and new argument for exception. rest of process is same as example 1.
+
+``` 
+$ python SH-UpdateControls.py \
+--input-file accounts.csv \
+--assume-role ManageSecurityHubControlsExecutionRole \
+--regions ALL \
+--standard AFSBP \
+--control-id-list IAM.1,IAM.2,IAM.3,IAM.4,IAM.5,IAM.6,IAM.7 \
+--control-action DISABLED \
+--disabled-reason 'Disabling IAM checks in all regions except for us-east-1, as global recording is enabled in us-east-1' 
+--regions-exception 'us-east-1'
+```
 If you have trouble with the scripts then please open an
 issue in GitHub.
