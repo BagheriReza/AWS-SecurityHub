@@ -44,6 +44,8 @@ Here, I will try to review each control and share my experience with you, for de
 
 ## Identity and Access Management
 **CIS 1.1: Avoid the use of the root user**
+The solution offered by AWS is to create an alarm and notification when there is access to the root account. The remediation can be done through the console by following the [AWS guidelines](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#cis-1.1-remediation).
+
 
 ## Logging
 ## Monitoring
