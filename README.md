@@ -1,0 +1,2 @@
+# AWS-SecurityHub
+Here in this repo, I would like to share my experience regarding implementing the CIS benchmark on AWS. I have explored great repositories that offer different remediation approaches that I will introduce here.  However, we need to have a clear understanding of our company policy and conditions to help us to decide to accept the specific approach or sometimes customization. There are some pros and cons related to these approaches which I try to review here and you are welcome to contribute here.
