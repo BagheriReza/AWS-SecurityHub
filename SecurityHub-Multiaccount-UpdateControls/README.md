@@ -370,7 +370,7 @@ $ python SH-UpdateControls.py \
 
 **Example 3- Disabling Controls in all regions except one region:**
 
-It is required to select ALL as regions argument and and new argument for exception. rest of process is same as example 1.
+It is required to select ALL as regions argument and add a new regions-exception argument. rest of the process is the same as example 1. regions-exception is an optional argument.
 
 ``` 
 $ python SH-UpdateControls.py \
